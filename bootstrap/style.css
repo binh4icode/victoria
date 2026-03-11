@@ -1,0 +1,40 @@
+.cookie{
+height: 400px;
+object-fit: cover;
+}
+
+.navbar{
+    background: linear-gradient(90deg,rgb(255, 196, 223),rgb(253, 255, 155), rgb(184, 222, 255) ) !important;
+
+
+}
+
+body{
+    background-color: rgb(226, 212, 255);
+}
+
+.card-img-top{
+    height:250px;
+}
+
+.card{
+    height: 500px;
+}
+
+.successtitle{
+    text-align:center;
+    background-color: skyblue;
+}
+
+.success{
+    text-align:center;
+     background-color: aliceblue;
+}
+
+button {
+    a{
+            color: black;
+            text-decoration: none;
+    }
+
+}

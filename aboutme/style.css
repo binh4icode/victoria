@@ -1,0 +1,40 @@
+.aboutmepage{
+background-image:url(bkg6.jpg);
+font-weight:bolder;
+}
+.bgimg{
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.homepage{
+    background-color: rgb(169,61,61);
+    color:rgb(4,0,215);
+    font-weight:bolder;
+}
+
+.border1{
+        border: 3px solid mediumpurple;
+}
+
+table, th, td{
+    border: 2px solid black 
+
+
+}
+
+tr{
+    background-color: lightgoldenrodyellow;
+}
+th{
+    background-color: blueviolet;
+}
+
+.places1{
+    background-color: lightpink;
+    color: black;
+    border:20px;
+    margin:20px;
+    padding:20px;
+}
+
+
