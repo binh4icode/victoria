@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="script" href="main.js">
+    <script>
+        function changeColor(){
+            document.getElementById("BUTTONS").innerHTML = "CLICKED";
+            document.body.style.backgroundColor = "skyblue"
+        }
+        function ShowDate(){
+            document.getElementById("showDate").innerHTML = Date();
+        }
+
+        function addimage(){
+            const addedimage = document.createElement("img")
+            addedimage.src = "jellycat.jpg";
+            addedimage.width = 300;
+
+            document.getElementById("imageinsert").appendChild(addedimage)
+        }
+
+        function deleteimage(){
+            const image = document.getElementById("imageinsert")
+            if(image){
+            image.remove();
+            }
+        }
+        function addimage(){
+            const addedimage = document.createElement("img")
+            addedimage.src = "jellycat.jpg";
+            addedimage.width = 300;
+
+            document.getElementById("imageinsert").appendChild(addedimage)
+        }
+    </script>
+</head>
+<body>
+    
+
+    <button></button>
+    <button id="BUTTONS" onclick="changeColor()">Click Me or else...</button>
+    <br/>
+    <button onclick="ShowDate()">Show Date</button>
+    <p id="showDate">Click the button to show the date</p>
+
+    <button onclick="addimage()">ADD IMAGE</button>
+    <button onclick="deleteimage()">DELETE IMAGE</button>
+<div id="imageinsert"></div>
+
+</body>
+</html>
